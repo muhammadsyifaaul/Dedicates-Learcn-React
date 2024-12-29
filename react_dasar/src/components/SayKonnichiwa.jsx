@@ -1,3 +1,5 @@
+import './say.css'
+
 export default function SayKonnichiwa() {
-    return <p>Konnichiwa</p>
+    return <p className='sayKonnichiwa'>Konnichiwa</p>
 }

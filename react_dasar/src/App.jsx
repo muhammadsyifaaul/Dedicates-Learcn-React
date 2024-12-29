@@ -2,13 +2,16 @@ import HelloWorld from './components/HelloWorld'
 import SayNihao from './components/SayNihao'
 import './App.css'
 import SayKonnichiwa from './components/SayKonnichiwa'
+import Container from './components/Container'
 
 function App() {
   return (
     <>
-      <HelloWorld />
       <SayNihao />
       <SayKonnichiwa />
+      <Container>
+          <HelloWorld />
+      </Container>
     </>
   )
 }
