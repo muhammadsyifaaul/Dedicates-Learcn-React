@@ -32,7 +32,7 @@ function SayBonjour({sapa = 'Bonjour'}) {
     }
     return <h1 style={style}>{sapa.toLocaleUpperCase()}</h1>
 }
-function Perkenalan({nama, umur, pekerjaan}) {
+function Perkenalan({nama = 'Anonim', umur=0, pekerjaan='Belum Bekerja'}) {
     return (
         <>
         <h1>{nama }</h1>
