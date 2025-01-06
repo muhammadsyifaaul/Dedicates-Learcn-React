@@ -1,4 +1,5 @@
 import React from 'react';
+import Card from './Card';
 
 const TopAnimes = () => {
     const animes = [
@@ -13,8 +14,10 @@ const TopAnimes = () => {
         <div>
             <h1>Top Animes</h1>
             <ul>
-                {animes.map(anime => (
-                    <li key={anime.id}>{anime.title}</li>
+                {animes.map((anime) => (
+                    <li key={anime.id}>
+                        <Card {...anime}/>
+                    </li>
                 ))}
             </ul>
         </div>
