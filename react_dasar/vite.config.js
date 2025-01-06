@@ -6,6 +6,7 @@ export default defineConfig({
   plugins: [react()],
   build: {
     index: 'index.html',
-    contact: 'contact.html'
+    contact: 'contact.html',
+    task: 'task.html'
   }
 })
