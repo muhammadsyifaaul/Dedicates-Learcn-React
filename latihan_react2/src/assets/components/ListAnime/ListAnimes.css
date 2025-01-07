@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.list-animes {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  padding: auto;
+  margin: 0 auto;
+}
+
+.list-animes h1 {
+  text-align: center;
+  width: 100%;
+  font-size: 2vw;
+  padding: 1rem;
+  color: aquamarine;
+}
+
+.top-animes {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center; 
+  align-content: flex-start;
+}
+.top-animes ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    align-items: flex-start;
+    justify-content: center; 
+    width: 100%;
+    margin: 0 auto; 
+    padding: 0;
+  }
+  
+.top-animes ul li {
+  list-style: none;
+  width: 20%;
+  height: auto;
+  padding: 1rem;
+  margin: 0;
+}
