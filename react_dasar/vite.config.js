@@ -1,12 +1,16 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
-// https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
   build: {
-    index: 'index.html',
-    contact: 'contact.html',
-    task: 'task.html'
+    rollupOptions: {
+      input: {
+        main: 'index.html',
+        contact: 'contact.html',
+        task: 'task.html',
+        counter: 'counter.html'
+      }
+    }
   }
 })

@@ -9,7 +9,7 @@ import Todolist from './assets/Todolist/Todolist';
 import Table from './assets/Table/Table';
 import AllertButton from './assets/Button/AllertButton';
 import MyButton from './assets/Button/MyButton';
-import { Counter } from './assets/Counter/Counter';
+
 
 function App() {
   return (
@@ -30,9 +30,6 @@ function App() {
       </Container>
       <Container>
         <MyButton onSmash={() => alert('Hello World dikirim secara props')} />
-      </Container>
-      <Container text={'State'}>
-        <Counter /> 
       </Container>
     </>
     // <Nav />
