@@ -20,6 +20,7 @@ const TopAnimes = () => {
     useEffect(() => {
         axios.get('https://api.jikan.moe/v4/top/anime').then((response) => {
             const datas = response.data.data.slice(0, 5);
+            console.log(datas)
             setAnimes(draft => {
                 datas.forEach((data, index) => {
                     draft[index] = {

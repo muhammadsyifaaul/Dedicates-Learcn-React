@@ -1,7 +1,6 @@
 nav {
   background-color: #3a6181;
-  color: #fff;
-  padding: 0.5rem 1.5rem;
+  padding: 1vw 1.5vw;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -9,10 +8,22 @@ nav {
 
 nav ul {
   display: flex;
+  align-items: center;
   list-style: none;
   margin: 0;
   padding: 0;
-  gap: 1rem;
+  gap: 1vw;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.3vw;
+}
+nav ul li {
+  display: flex;
+  align-items: center;
+  align-content: center;
 }
 .search form{
   display: flex;
@@ -21,14 +32,14 @@ nav ul {
 }
 
 .search input {
-  padding: 0.5rem;
+  padding: 0.5vw;
   border-radius: 5px;
   border: none;
   outline: none;
 }
 
 .search button {    
-  padding: 0.5rem 1rem;
+  padding: 0.5vw 1vw;
   border-radius: 5px;
   border: none;
   background-color: #fff;
